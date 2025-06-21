@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SimpleSite Template", ".", "{F95A4FDA-C5E9-91C5-23C4-94F3D1716C0C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_12701"
+		Debug.AspNetCompiler.PhysicalPath = "..\SimpleSite Template\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12701\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_12701"
+		Release.AspNetCompiler.PhysicalPath = "..\SimpleSite Template\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12701\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "12701"
+		SlnRelativePath = "..\SimpleSite Template\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F95A4FDA-C5E9-91C5-23C4-94F3D1716C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95A4FDA-C5E9-91C5-23C4-94F3D1716C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95A4FDA-C5E9-91C5-23C4-94F3D1716C0C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95A4FDA-C5E9-91C5-23C4-94F3D1716C0C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34D60BDD-ECF0-4ACC-BCB9-305773E05F0B}
+	EndGlobalSection
+EndGlobal

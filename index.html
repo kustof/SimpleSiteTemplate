@@ -1,0 +1,251 @@
+<!--########################################################-->
+<!--####### Copyright (c) smArt. All Rights Reserved.#######-->
+<!--#######        Contact: smArt.App@mail.ru        #######-->
+<!--#######                                          #######-->
+<!--########################################################-->
+<!--############################  ##########################-->
+<!--###########################    #########################-->
+<!--##########################  ##  #############  #########-->
+<!--#########   ###  #  # ###  ####  ##  #   ###    ########-->
+<!--########  #  ##        ##  ####  ##    #  ###  #########-->
+<!--#########  ####  #  #  ##        ##  ########  #########-->
+<!--##########  ###  #  #  ##  ####  ##  ########  #########-->
+<!--########  #  ##  #  #  ##  ####  ##  ########  #########-->
+<!--#########   ###  #  #  ##  ####  ##  ########   ########-->
+<!--########################################################-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- #region Minimum necessary/desirable elements -->
+    <!-- Set the document title -->
+    <title>Main</title>
+
+    <!-- #region meta e.t.c. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Set the base URL for all relative URLs in the document -->
+    <!--<base href="https://example.com/page.html ">-->
+    <!-- A short description of the document (limited to 150 characters) -->
+    <!-- This content can be used in search engine results. -->
+    <meta name="description" content="Описание страницы">
+
+    <!-- #endregion meta e.t.c. -->
+    <!-- #region Links -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- CDN-->
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">-->
+    <link href="assets/css/bundle.min.css" rel="stylesheet" />
+
+    <script src="assets/js/modules/app.js" type="module"></script>
+    <!-- #endregion Links -->
+    <!-- #region Icons -->
+    <!-- For IE 10 and below -->
+    <!-- Place favicon.ico in the root directory - the tag is not needed -->
+    <!-- The icon is at the maximum resolution for which we need it -->
+    <link rel="icon" sizes="128x128" href="assets/img/ico/icon.png">
+
+    <!-- Apple Touch icon (reuse 128px icon.png) -->
+    <link rel="apple-touch-icon" href="assets/img/ico/icon.png">
+
+    <!-- The icon of the attached Safari tab -->
+    <link rel="mask-icon" href="/path/to/icon.svg" color="blue">
+    <!-- #endregion Icons -->
+    <!-- #endregion Minimum required/desirable elements -->
+    <!-- #region Optional/additional elements -->
+    <!-- #region meta -->
+    <!-- Allows you to control where resources are loaded from. -->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'">-->
+    <!-- The name of the web application (should only be used if the website is used as an application) -->
+    <meta name="application-name" content="Имя приложения">
+
+    <!-- Tab color for Chrome on Android, Vivaldi, Safari 15 -->
+    <meta name="theme-color" content="#4285f4">
+
+    <!-- Managing the behavior of search engines during site inspection and indexing -->
+    <meta name="robots" content="index,follow"><!-- All search engines -->
+    <meta name="googlebot" content="index,follow"><!-- Google specifics -->
+    <!-- Instructs Google not to show the sitelinks search bar -->
+    <meta name="google" content="nositelinkssearchbox">
+
+    <!-- Instructs Google not to translate the document -->
+    <meta name="google" content="notranslate">
+
+    <!-- Check the ownership of the site -->
+    <meta name="google-site-verification" content="verification_token"><!-- Google Search Console -->
+    <meta name="yandex-verification" content="verification_token"><!-- by Yandex Webmaster -->
+    <meta name="msvalidate.01" content="verification_token"><!-- Bing Webmaster Center -->
+    <meta name="alexaVerifyID" content="verification_token"><!-- Alexa Console -->
+    <meta name="p:domain_verify" content="code_from_pinterest"><!-- Pinterest Console-->
+    <meta name="norton-safeweb-site-verification" content="norton_code"><!-- Norton Safe Web -->
+    <!-- Specify the software used to create the document (for example, WordPress, Dreamweaver) -->
+    <meta name="generator" content="software name">
+
+    <!-- A brief description of the topic of your document -->
+    <meta name="subject" content="тема вашего документа">
+
+    <!-- Gives an overall age estimate based on the content of the document -->
+    <meta name="rating" content="General">
+
+    <!-- Allows you to control how information about the abstract is transmitted -->
+    <meta name="referrer" content="no-referrer">
+
+    <!-- Disable automatic detection and formatting of possible phone numbers -->
+    <meta name="format-detection" content="phone=no">
+
+    <!-- Completely abandon DNS prefetch by setting the value to "off" -->
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+
+    <!-- Specifies the document to be displayed in a specific frame -->
+    <meta http-equiv="Window-Target" content="_value">
+
+    <!-- Geo tags -->
+    <meta name="ICBM" content="latitude, longitude">
+    <meta name="geo.position" content="latitude;longitude">
+    <meta name="geo.region" content="country[-state]"><!-- Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; for example, content="US" / content="US-NY" -->
+    <meta name="geo.placename" content="city/town"><!-- for example, content="New York City" -->
+    <!-- #region Social network -->
+
+    <meta property="fb:app_id" content="123456789">
+    <meta property="og:url" content="https://example.com/page.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Content header">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:image:alt" content="Description of what is in the image (not the caption)">
+    <meta property="og:description" content="Description">
+    <meta property="og:site_name" content="Site name">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="article:author" content="">
+
+    <!-- #endregion Social network -->
+    <!-- #endregion meta -->
+    <!-- #region Links -->
+    <!-- Helps to prevent duplicate content issues -->
+    <link rel="canonical" href="https://example.com/article/?page=2">
+
+    <!-- Links to the AMP HTML version of the current document -->
+    <
+    <link rel="amp html" href="https://example.com/path/to/amp-version.html">
+
+    <!-- Link to the JSON file that contains the data for the "installation" of the web application -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <!-- Links to information about the author(s) of the document -->
+    <link rel="author" href="humans.txt">
+
+    <!-- Refers to the copyright statement applicable to the context of the link -->
+    <link rel="license" href="copyright.html">
+
+    <!-- Provides a link to a place in your document that may be in another language -->
+    <link rel="alternate" href="https://es.example.com/" hreflang="es">
+
+    <!-- Provides information about the author or another person -->
+    <link rel="me" href="https://google.com/profiles/thenextweb" type="text/html">
+    <link rel="me" href="mailto:name@example.com">
+    <link rel="me" href="sms:+111111111111">
+
+    <!-- Links to a document describing a collection of records, documents, or other materials of historical interest -->
+    <link rel="archives" href="https://example.com/archives/">
+
+    <!-- Links to a top-level resource in a hierarchical structure -->
+    <link rel="index" href="https://example.com/article/">
+
+    <!-- Provides a self-reference - useful when a document has multiple possible references -->
+    <link rel="self" type="application/atom+xml" href="https://example.com/atom.xml">
+
+    <!-- The first, last, previous and next documents in a series of documents, respectively -->
+    <link rel="first" href="https://example.com/article/">
+    <link rel="last" href="https://example.com/article/?page=42">
+    <link rel="prev" href="https://example.com/article/?page=1">
+    <link rel="next" href="https://example.com/article/?page=3">
+
+    <!-- Used when a third-party service is used for blogging -->
+    <link rel="EditURI" href="https://example.com/xmlrpc.php?rsd" type="application/rsd+xml" title="RSD">
+
+    <!-- Generates an automatic comment when another WordPress blog links to your WordPress blog or post -->
+    <link rel="pingback" href="https://example.com/xmlrpc.php">
+
+    <!-- Notifies the URL when you link to it in your document -->
+    <link rel="webmention" href="https://example.com/webmention">
+
+    <!-- Allows you to post messages on your own domain using the Micro pub client -->
+    <link rel="micropub" href="https://example.com/micropub">
+
+    <!-- Open Search -->
+    <link rel="search" href="/open-search.xml" type="application/opensearchdescription+xml" title="Заголовок поиска">
+
+    <!-- Feeds -->
+    <link rel="alternate" href="https://feeds.feedburner.com/example" type="application/rss+xml" title="RSS">
+    <link rel="alternate" href="https://example.com/feed.atom" type="application/atom+xml" title="Atom 0.3">
+
+    <!-- Prefetching, preloading, prebrowsing -->
+    <!-- Additional: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
+    <link rel="dns-prefetch" href="//example.com/">
+    <link rel="preconnect" href="https://www.example.com/">
+    <link rel="prefetch" href="https://www.example.com/">
+    <link rel="prerender" href="https://example.com/">
+    <link rel="preload" href="assets/img/skeleton.png" as="image">
+    <!-- #endregion Links -->
+    <!-- #endregion Optional/additional elements -->
+    <!-- Used to add CSS to a document. Used for preferred styling -->
+    <style>
+        /* ... */
+    </style>
+
+    <!-- Used to declare HTML fragments that can be cloned and inserted into a document. If specified in <head>, then <template> can contain only metadata -->
+    <template>
+        <!-- ... -->
+    </template>
+</head>
+
+<body class="d-flex h-100 text-center text-bg-dark">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">Cover</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link fw-bold py-1 px-0" href="about.html">About</a>
+                    <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="px-3">
+            <h1>Cover your page.</h1>
+            <p class="lead">
+                <a href="about.html" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
+            </p>
+        </main>
+
+        <footer class="mt-auto text-white-50">
+            <p>Cover template with <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://github.com/kustof/SimpleSiteTemplate" class="text-white" target="_blank">@kustof</a>.</p>
+        </footer>
+    </div>
+
+    <!-- #region Ссылки на внешний JavaScript файл -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- CDN-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>-->
+    <script src="assets/js/bundle.min.js"></script>
+
+    <!-- #endregion Ссылки на внешний JavaScript файл -->
+    <!-- Используется для добавление JS в документ-->
+    <script>
+        // функция(и) идут здесь
+        window.addEventListener("load", function (event) {
+            App.Module.ShowMessage();
+        });
+    </script>
+
+    <!-- Используется на случай если JavaScript отключен в браузере -->
+    <noscript>
+        <!-- Альтернатива, когда JS отключен -->
+    </noscript>
+</body>
+</html>

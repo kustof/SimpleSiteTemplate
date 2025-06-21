@@ -1,0 +1,5 @@
+User-agent: * #indicates which robots have directives installed.
+Allow: * # allow everything to be indexed
+Disallow: /search/ # prohibits links from embedded search pages on the site
+Disallow: /admin/ # prohibits links from the admin panel
+Sitemap: http://example.com/sitemap.xml # points the robot to the Sitemap file for the site

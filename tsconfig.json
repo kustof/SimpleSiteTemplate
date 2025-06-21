@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "allowJs": false,
+    "moduleResolution": "Node",
+    "typeRoots": [ "wwwroot/lib/@types/" ],
+    "lib": [ "esnext", "dom" ]
+  },
+  "exclude": [
+    "node_modules",
+    "obj",
+    "bin"
+  ],
+  "compileOnSave": true
+}

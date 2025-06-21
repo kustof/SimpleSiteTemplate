@@ -1,0 +1,36 @@
+[
+  {
+    "outputFileName": "assets/js/bundle.js",
+    "inputFiles": [
+      "assets/js/site.js",
+      "assets/js/site1.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  },
+  {
+    "outputFileName": "assets/css/bundle.css",
+    "inputFiles": [
+      "assets/css/site.css",
+      "assets/css/site1.css"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  },
+  {
+    "outputFileName": "assets/js/modules/app.min.js",
+    "inputFiles": [
+      "assets/js/modules/app.js"
+    ]
+  },
+  {
+    "outputFileName": "index.min.html",
+    "inputFiles": [
+      "index.html"
+    ]
+  }
+]
